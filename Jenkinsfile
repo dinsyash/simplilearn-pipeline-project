@@ -6,9 +6,9 @@ pipeline {
 				echo "Compiled successfully";
 			}
 		}
-		stage ('JUnit') {
+		stage ('Java') {
 			steps {
-				echo "JUnit passed successfully";
+				echo "Java passed successfully";
 			}
 		}
 		stage ('Quality-Gate') {
